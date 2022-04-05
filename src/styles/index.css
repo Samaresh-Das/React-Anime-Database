@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-image: url('../assets/images/wallpaperbetter.jpg') !important;
+}
+
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seriff;
+  font-weight: bolder;
+  display: grid;
+
+  height: 100vh;
+ 
+  background-size:auto, 100%;
+  overflow: scroll;
+}
+
+h1 {
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  color: #3057E3;
+  text-decoration: underline;
+  font-size: 45px;
+}
+
+.list{
+  border: 5px solid rgb(83, 127, 192);
+  border-radius: 9px;
+
+  line-height: 2.7;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  color: #371366;
+}
+
+.list li:hover{
+  color: rgb(122, 51, 17);
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.details{
+  font-weight: bold !important;
+  min-width: 100%;
+  font-weight: bold;
+  font-size: 19px;
+}
