@@ -48,3 +48,23 @@ h1 {
   font-weight: bold;
   font-size: 19px;
 }
+
+.right{
+  color: rgb(14, 11, 41);
+  font-size: 30px;
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+}
+
+.right{
+  margin-top: 15%;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.left img{
+  height: 60%;
+}

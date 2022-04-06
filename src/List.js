@@ -15,8 +15,8 @@ export default function List({ setter }) {
     <div className = 'list'>
       <ul>
         {films &&
-          films.map($anime => (
-            <li key={$anime.id} onClick={e => setter($anime)}>
+          films.map($anime=> (
+            <li key={$anime.id} onClick={e => setter($anime) }>
               {$anime.title}
             </li>
           ))}

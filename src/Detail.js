@@ -10,17 +10,24 @@ export default function Detail({ film }) {
   }
   return (
     <div style={style} className = 'details'>
-      <h2>{film.title}</h2>
-      <p>{film.description}</p>
-      <div>
-        <b>Director</b>: {film.director}
+      
+      <div className = 'left'>
+        <h2>{film.title}</h2>
+        <img src={film.image}/>
       </div>
-      <div>
-        <b>Producer</b>: {film.producer}
+      <div className='right'>
+        <p>{film.description}</p>
+        <div>
+          <b>Director</b>: {film.director}
+        </div>
+        <div>
+          <b>Producer</b>: {film.producer}
+        </div>
+        <div>
+          <b>Released</b>: {film.release_date}
+        </div>
       </div>
-      <div>
-        <b>Released</b>: {film.release_date}
-      </div>
+      
     </div>
   );
 }
